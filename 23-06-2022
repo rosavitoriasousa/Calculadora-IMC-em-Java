@@ -1,1 +1,52 @@
 
+Main
+
+package com.example.exemplo_botao_03_06_22_rosa_roger_2ds;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+
+    EditText edit1, edit2;
+    TextView resultado;
+    int n1, n2;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        edit1 = findViewById(R.id.txtdecimal);
+        edit2 = findViewById(R.id.txtdecima1);
+        resultado = findViewById(R.id.txtresultado);
+
+    }
+    public void Calcula(View view){
+
+        n1 = Integer.parseInt(edit1.getText().toString());
+        n2 = Integer.parseInt(edit2.getText().toString());
+        int result = n1+n2;
+
+        resultado.setText(Integer.valueOf(result).toString());
+
+    }
+
+}
+
+
+String
+
+<resources>
+    <string name="app_name">Exemplo_Botao_03_06_22_Rosa_Roger_2ds</string>
+    <string name="Dica1">Digite o Primeiro valor</string>
+    <string name="Dica2">Digite o Segundo valor</string>
+    <string name="Somar">Somar</string>
+    <string name="Subtrair">Subtrair</string>
+    <string name="Multiplicar">Multiplicar</string>
+    <string name="Dividir">Dividir</string>
+</resources>
+
