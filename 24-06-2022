@@ -1,0 +1,37 @@
+Main
+
+package com.example.calculadoraimc;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+
+    EditText peso, altura;
+    TextView IMC;
+    Double n1, n2;
+
+    
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
+
+
+String
+
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="Peso">Digite o seu peso</string>
+    <string name="Altura">Digite a sua altura</string>
+    <string name="IMC">Calcular</string>
+    <string name="Homem">Homem</string>
+    <string name="Mulher">Mulher</string>
+</resources>
