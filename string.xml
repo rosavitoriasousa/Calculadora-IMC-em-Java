@@ -1,0 +1,9 @@
+<resources>
+    <string name="CalcIMC">CalculadoraImc</string>
+    <string name="Peso">Digite seu Peso</string>
+    <string name="Altura">Digite sua Altura</string>
+    <string name="hom">Homem</string>
+    <string name="mul">Mulher</string>
+    <string name="calcul">Calcular</string>
+    <string name="result">resultado</string>
+</resources>
